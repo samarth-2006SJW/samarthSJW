@@ -2,8 +2,7 @@
 int main()
 {
     int a[6];
-    printf("array elements");
-
+    printf("array elements"); 
     for(int i=0;i<6;i++)
      scanf("%d",&a[i]);
     printf("array elements"); 
