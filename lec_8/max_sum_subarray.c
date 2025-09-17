@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
- int n;printf("enter array size");int i,j,currsum,max=0;
+ int n;printf("enter array size");int i,j,max=0;
  scanf("%d",&n);
  int a[n];
  printf("array elements:");
@@ -13,7 +13,7 @@ int main()
  for( i=0;i<n-k;i++){
   currsum=0;
   for(j=0;j<i+k;j++)
-   currsum+=a[j];
+   int currsum+=a[j];
   if(currsum>max)
    max=currsum;
  }
