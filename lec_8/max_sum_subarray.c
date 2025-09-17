@@ -1,18 +1,18 @@
 #include<stdio.h>
 int main()
 {
- int n;printf("enter array size");int i,j,currsum,max=0;
+ int n;printf("enter array size");int max=0;
  scanf("%d",&n);
  int a[n];
  printf("array elements:");
- for( i=0;i<n;i++)
+ for( int i=0;i<n;i++)
   scanf("%d",&a[i]);
  int k;
  printf("enter size of subarray:");
  scanf("%d",&k);
- for( i=0;i<n-k;i++){
-  currsum=0;
-  for(j=0;j<i+k;j++)
+ for( int i=0;i<=n-k;i++){
+   int currsum=0;
+  for(int j=i;j<i+k;j++)
    currsum+=a[j];
   if(currsum>max)
    max=currsum;
