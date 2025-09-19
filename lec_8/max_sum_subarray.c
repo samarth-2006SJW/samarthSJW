@@ -2,8 +2,6 @@
 int main()
 {
 
- int n;printf("enter array size");int max=0;
-
  int n;printf("enter array size");int i,j,max=0;
 
  scanf("%d",&n);
@@ -18,10 +16,7 @@ int main()
    int currsum=0;
   for(int j=i;j<i+k;j++)
    currsum+=a[j];
- for( i=0;i<n-k;i++){
-  currsum=0;
-  for(j=0;j<i+k;j++)
-   int currsum+=a[j];
+
 
   if(currsum>max)
    max=currsum;
