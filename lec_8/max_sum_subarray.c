@@ -7,14 +7,14 @@ int main()
  scanf("%d",&n);
  int a[n];
  printf("array elements:");
- for( int i=0;i<n;i++)
+ for( i=0;i<n;i++)
   scanf("%d",&a[i]);
  int k;
  printf("enter size of subarray:");
  scanf("%d",&k);
- for( int i=0;i<=n-k;i++){
+ for( i=0;i<=n-k;i++){
    int currsum=0;
-  for(int j=i;j<i+k;j++)
+  for( j=i;j<i+k;j++)
    currsum+=a[j];
 
 
